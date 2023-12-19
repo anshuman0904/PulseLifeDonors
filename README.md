@@ -39,3 +39,17 @@ To get started, follow these steps:
    ```bash
    git clone https://github.com/your-username/blood-donation-dbms.git
    cd blood-donation-dbms
+   ```
+2. **Install Dependencies:**
+   ```bash
+   pip install Flask Flask-MySQL
+   ```
+3. **Configure Database:**
+    Set up a MySQL database named dbmsproj.
+   Update the MySQL configuration in the app.config section of the code.
+4. **Run the Application:**
+   ```bash
+   python app.py
+   ```
+5. **Access the Application:**
+   Open your web browser and go to http://localhost:8080/
